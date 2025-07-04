@@ -5,12 +5,10 @@ const {
     to,
     timeline,
     delayedCall,
-    utils: { random } },
-
-  MorphSVGPlugin,
-  Draggable } =
-window;
-registerPlugin(MorphSVGPlugin);
+    utils: { random } }
+  },
+  Draggable 
+} = window;
 
 // Used to calculate distance of "tug"
 let startX;
